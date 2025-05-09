@@ -1,0 +1,9 @@
+2025-05-08T08:56:50.783-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h34m29s624ms851µs700ns).
+2025-05-08T10:13:30.448-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m38s571ms557µs800ns).
+2025-05-08T10:38:36.602-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m6s98ms365µs500ns).
+2025-05-08T11:40:47.835-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m11s233ms14µs700ns).
+2025-05-08T13:15:19.427-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m8s214ms797µs600ns).
+2025-05-08T13:47:52.737-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m33s170ms466µs800ns).
+2025-05-08T14:05:56.391-04:00  WARN 61844 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m33s605ms625µs700ns).
+
+// Derly Ortiz Ubiera

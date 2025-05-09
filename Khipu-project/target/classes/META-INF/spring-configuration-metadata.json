@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "khipu",
+      "type": "com.DerlyKhipu.Khipu.config.KhipuConfig",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "khipu.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    },
+    {
+      "name": "khipu.api-url",
+      "type": "java.lang.String",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    },
+    {
+      "name": "khipu.cancel-url",
+      "type": "java.lang.String",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    },
+    {
+      "name": "khipu.receiver-id",
+      "type": "java.lang.Long",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    },
+    {
+      "name": "khipu.return-url",
+      "type": "java.lang.String",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    },
+    {
+      "name": "khipu.webhook-url",
+      "type": "java.lang.String",
+      "sourceType": "com.DerlyKhipu.Khipu.config.KhipuConfig"
+    }
+  ],
+  "hints": []
+}

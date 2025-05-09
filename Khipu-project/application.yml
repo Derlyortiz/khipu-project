@@ -1,0 +1,50 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  compression:
+    enabled: true
+
+spring:
+  datasource:
+    autoconfigure:
+      exclude: org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration
+    url: jdbc:h2:mem:khipudb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  mail:
+    host: "ortizubieraderly@gmail.com"
+    port: "587"
+    username: "ortizubieraderly"
+    password: "1234"
+
+khipu:
+  api-url: "https://sandbox.khipu.com/api/3.0/v3"
+  api-key: "x-api-key"
+  receiver-id: "487632"
+  return-url: "http://localhost:8080/payment/completed"
+  cancel-url: "http://localhost:8080/payment/canceled"
+  webhook-url: "http://localhost:8080/api/khipu/webhook"
+
+logging:
+  level:
+    root: INFO
+    service.KhipuService: DEBUG
+    org.springframework.web: INFO
+    com.example.khipu: DEBUG
+  file:
+    name: khipu-integration.log
+
+#Derly Ortiz Ubiera
